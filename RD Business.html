@@ -1,184 +1,214 @@
-
 <!DOCTYPE html>
+
 <html>
 <head>
-	<title>RD Business</title>
+    <title>RD Business</title>
 
 <style type="text/css">
 
-	.frist-section{
-		float:left;
-		text-decoration: none;
-	}
-	.frist-section ul{
+    .frist-section{
+        float:left;
+        text-decoration: none;
+    }
+    .frist-section ul{
         list-style-type: none;
-	}
-	
-    .frist-section ul li{
-		float: left;
-	}
-
-	.frist-section ul li a{
-		
-		text-decoration: none;
-		margin: 10px;
-	}
-
-	a:hover{
-		text-decoration:underline;
-		color: red;
-	}
-
-	.second-section{
-		float: right;
-		margin-right:  40px;
-	}
-
-
-	h1{
-		background-color: black;
-		color: white;
-		clear: both;
-		padding: 20px;
-	}
-    .centered{
-    	text-align: center;
     }
     
-    .image01{
-         width: 40%;
-         height: 34%;
-         background-color: black;
-    }
-    .text1{
-      position: absolute;
-      left: 640px;
-      top: 300px;
-
-      
-    }
-    .imagetext{
-    	background-color: black;
-    	padding: 25px;
-    }
-    .select img{
-    	margin: 42px;
+    .frist-section ul li{
+        float: left;
     }
 
+    .frist-section ul li a{
+        
+        text-decoration: none;
+        margin: 10px;
+    }
+
+    a:hover{
+        text-decoration:underline;
+        color: red;
+    }
+
+    .second-section{
+        float: right;
+        margin-right:  40px;
+    }
+
+
+    h1{
+        background-color: black;
+        color: white;
+        clear: both;
+        padding: 20px;
+    }
+    
     .images img{
         width:20px;
         height:20px;
     }
     
     #menu01{
-    	float:left;
-    	color: white;
+        float:left;
+        color: white;
 
     }
     #menu02{
-    	color: white;
-    	margin-left: 650px;
+        color: white;
+        margin-left: 650px;
     }
     #menu03{
-    	color: white;
-    	position: relative;
+        color: white;
+        position: relative;
         float:right;
-    	top:-250px;
+        top:-250px;
     }
     .last{
-    	background-color: black;
-    	padding: 40px;
+        background-color: black;
+        padding: 40px;
     }
-
-
-   
-
+    .icon img{
+        width:5%;
+        height: 5%;
+        margin:85px;
+    }
+    .center{
+        text-align:center;
+        font-size: 150%;
+    }
+    .text02{
+        background-color:black;
+        
+        padding: 30px;
+    }
+    .center01{
+        text-align:center;
+    }
+    .middle{
+        margin-left: 450px;
+    }
+    .centerimg{
+        text-align: center;
+    }
+#loading{
+    position: fixed;
+    width: 100%;
+background-color: white;/*
+    background: url('https://imagekit.io/static/img/newPages/homepage-wave-bg.svg')*/repeat center center;
+    height: 100vh;
+    align-items: center;
+    z-index: 9;
+    display: flex;
+    
+}
+#loading img {
+margin-left: 46%;
+margin-top: 10%;
+}   .image{
+            
+            display: flex;
+            justify-content: center;
+            border: 5px solid grey;
+            width: 107px ;
+            height: 110px;
+            border-radius: 50%;
+            margin: 25%;
+            margin-left: 424px;
+        }
+        /*PRELOADERE*/
 </style>
 
 </head>
+<body onload ="my()" > <!-- it get loaded function of window goes to this function-->
 
-<body>
-
+        <div id="loading" >
+        <img src="/24.gif">
+            </div>
 <div class="frist-section">
-	<ul>
-		<li><a href="RD Business.html">ABOUT</a></li>
-		<li><a href="services.html">SERVICES</a></li>
-		<li><a href="">BLOG</a></li>
-		<li><a href="contact us.html">CONTACT US</a></li>
-		<li><a href="">SIGNUP NOW</a></li>
-	</ul>
+    <ul>
+        <li><a href="RD Business.html">ABOUT</a></li>
+        <li><a href="services.html">SERVICES</a></li>
+        <li><a href="">BLOG</a></li>
+        <li><a href="contact us.html">CONTACT US</a></li>
+        <li><a href="">SIGNUP NOW</a></li>
+    </ul>
 </div>
 
 <div class="second-section">
-	<img src="image/logo.png">
+    <img src="image/logo.png">
 </div>
 
-<h1>ABOUT US</h1>
+<h1>SERVICES</h1>
 
-<div class="centered">
-<p style="font-size: 150%"><span style="color: red">WE CAN</span> HELP YOUR business GROW</p>
-<p>Get your Business in 4 easy steps</p>
+<P class="center"><span style= "color:red">HOW TO PROVIDE</span> <br>TOOLS THAT HELP ANYONE GIVE A VOICE TO THEIR IDEAS</P>
+
+<div class="icon">
+    <img src="image/icon-1.png">
+    <img src="image/icon-2.png">
+    <img src="image/icon-3.png">
+    <img src="image/icon-4.png">
+    <img src="image/icon-5.png">
+    <img src="image/icon-6.png">
 </div>
 
-<div class="imagetext">
-<img class="image01" src="image/img-2png.png">
-
-<div style="color: white" class="text1">
-	<p style="font-size: 200%">EVERYTHING<br>YOU NEED IN ONE SOLUTION </p>
-	<P style="font-size: 130%">It is a long establlished fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here' making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model.. </P>
+<div class="text02">
+<p style="font-size: 150%"><span style="color: white">CREATE</span> <span style="color: red">PERSONALISED BUSINESS</span></p>
+<p style="color: gray">WHAT WE DONE</p>
 </div>
+<p class="center01"><span style="color:red">WE HAVE A PROFESSIONAL</span> <br>TEAM OF BUSINESS ANALYSIST</p>
+
+<pre class="centerimg">JOAN DOE                 HENRY BLACK                  ROCK JOE</pre> 
+
+<div class="middle">
+<img src="image/img-7.png" width="200px" height="200px">
+<img src="image/img-8.png" width="200px" height="200px">
+<img src="image/img-9.png" width="200px" height="200px">
 </div>
-
-<div class="centered">
-	<p style="color: brown">Portfolio</p>
-	<p style="font-size: 140%"> <span style="color: red" >CHOOSE A </span>PROFESSIONAL DESIGN</p>
-	<p style="color: brown">Websites</p>
-</div>
-
-<div class="select">
-	<img src="image/img1.png">
-	<img src="image/img2.png">
-	<img src="image/img3.png">
-	<img src="image/img4.png">
-</div>
-
-<p style="margin-left: 50px" "margin-right:50px">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or less normal distribution of letters. as opposed to using 'Content here,content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text. and a seach for 'lorem ipsum' will uncover many web sites still in their.</p><
-
 
 <div class="last">
 <div class="menu" id="menu01">
-	<img src="image/logo.png">
-	<P><b>Recent Post:<b></P>
-	<p>Participate in staff meetings <br> manage dedicated to marketing <br> November 25,2020</p>
-	<div class="images">
-		<img src="image/fb.png">
-		<img src="image/insta.jpg">
-		<img src="image/twitter.png">
-	</div>	
+    <img src="image/logo.png">
+    <P><b>Recent Post:<b></P>
+    <p>Participate in staff meetings <br> manage dedicated to marketing <br> November 25,2020</p>
+    <div class="images">
+        <img src="image/fb.png">
+        <img src="image/insta.jpg">
+        <img src="image/twitter.png">
+    </div>  
 </div>
 
 <div class="menu" id="menu02">
-	<h4>Contact Us</h4>
-	<p><b>address:</b> <br> <em>london143,UK</em></p>
-	<p><b>Email:</b> <br><em>rdbusiness.com</em> </p>
-	<p><b>Tel.No: <br> +7586656566 <br> +7586656566</b></p>
+    <h4>Contact Us</h4>
+    <p><b>address:</b> <br> <em>london143,UK</em></p>
+    <p><b>Email:</b> <br><em>rdbusiness.com</em> </p>
+    <p><b>Tel.No: <br> +7586656566 <br> +7586656566</b></p>
 </div>
 
 <div class="menu" id="menu03">
-	<h4>Menus</h4>
-	<ul>
-		<li><a href="RD Business.html">ABOUT</a></li>
-		<li><a href="">SERVICES</a></li>
-		<li><a href="">BLOG</a></li>
-		<li><a href="">CONTACT US</a></li>
-		<li><a href="">SIGNUP NOW</a></li>
-	</ul>
+    <h4>Menus</h4>
+    <ul>
+        <li><a href="RD Business.html">ABOUT</a></li>
+        <li><a href="">SERVICES</a></li>
+        <li><a href="">BLOG</a></li>
+        <li><a href="">CONTACT US</a></li>
+        <li><a href="">SIGNUP NOW</a></li>
+    </ul>
 
-	<h5>NEWSLETTER</h5>
-	<input placeholder="Your Email">
-	<button>Submit</button>
+    <h5>NEWSLETTER</h5>
+    <input placeholder="Your Email">
+    <button>Submit</button>
 </div>
 </div>
+
+
 
 </body>
 </html>
+<script type="text/javascript">
+    let preloader=document.getElementById('loading');
+function my(){
+            preloader.style.display ="none";
+        
+
+
+
+        };</script>
