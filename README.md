@@ -1,1 +1,1 @@
-# Sample-Website
+# Simple-Website
