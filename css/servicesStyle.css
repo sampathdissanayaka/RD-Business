@@ -1,0 +1,83 @@
+.frist-section{
+  float:left;
+  text-decoration: none;
+}
+.frist-section ul{
+      list-style-type: none;
+}
+
+  .frist-section ul li{
+  float: left;
+}
+
+.frist-section ul li a{
+
+  text-decoration: none;
+  margin: 10px;
+}
+
+a:hover{
+  text-decoration:underline;
+  color: red;
+}
+
+.second-section{
+  float: right;
+  margin-right:  40px;
+}
+
+
+h1{
+  background-color: black;
+  color: white;
+  clear: both;
+  padding: 20px;
+}
+
+  .images img{
+      width:20px;
+      height:20px;
+  }
+
+  #menu01{
+    float:left;
+    color: white;
+
+  }
+  #menu02{
+    color: white;
+    margin-left: 650px;
+  }
+  #menu03{
+    color: white;
+    position: relative;
+      float:right;
+    top:-250px;
+  }
+  .last{
+    background-color: black;
+    padding: 40px;
+  }
+  .icon img{
+    width:5%;
+    height: 5%;
+    margin:85px;
+  }
+  .center{
+    text-align:center;
+    font-size: 150%;
+  }
+  .text02{
+    background-color:black;
+
+    padding: 30px;
+  }
+  .center01{
+    text-align:center;
+  }
+  .middle{
+    margin-left: 450px;
+  }
+  .centerimg{
+    text-align: center;
+  }
